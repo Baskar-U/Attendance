@@ -1,0 +1,82 @@
+/* Mobile Styles */
+@media (max-width: 640px) {
+    .facultyPage {
+      padding: 1rem;
+    }
+  
+    .attendance-options {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin: 10px 0;
+    }
+  
+    .attendance-options button {
+      width: 100%;
+      padding: 0.5rem;
+      font-size: 1rem;
+    }
+  
+    .w-64 {
+      width: 100%;
+    }
+  
+    .p-6 {
+      padding: 1rem;
+    }
+  
+    .text-xl {
+      font-size: 1.25rem;
+    }
+  
+    .text-lg {
+      font-size: 1rem;
+    }
+  
+    .calendar-button {
+      padding: 0.25rem 0.5rem;
+      font-size: 0.875rem;
+    }
+  }
+  
+  /* Desktop Styles */
+  @media (min-width: 641px) {
+    .facultyPage {
+      padding: 2rem;
+    }
+  
+    .attendance-options {
+      display: flex;
+      flex-direction: row;
+      gap: 20px;
+      justify-content: center;
+    }
+  
+    .attendance-options button {
+      width: auto;
+      padding: 0.75rem 1.5rem;
+      font-size: 1rem;
+    }
+  
+    .w-64 {
+      width: 16rem;
+    }
+  
+    .p-6 {
+      padding: 1.5rem;
+    }
+  
+    .text-xl {
+      font-size: 1.5rem;
+    }
+  
+    .text-lg {
+      font-size: 1.25rem;
+    }
+  
+    .calendar-button {
+      padding: 0.5rem 1rem;
+      font-size: 1rem;
+    }
+  }
+  
